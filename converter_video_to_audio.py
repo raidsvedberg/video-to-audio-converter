@@ -1,8 +1,8 @@
 from pydub import AudioSegment
 import os
 
-# input_directory = input('enter the input directory: ')
-# output_directory = input('enter the output directory: ')
+input_directory = input('enter the input directory: ')
+output_directory = input('enter the output directory: ')
 
 def convert_video_to_mp3(input_directory, output_directory):
 
@@ -25,3 +25,4 @@ def convert_video_to_mp3(input_directory, output_directory):
 
 if __name__ == '__main__':
     convert_video_to_mp3(input_directory, output_directory)
+
